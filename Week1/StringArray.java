@@ -19,7 +19,7 @@ public class StringArray {
 		return arr;
 	}
 	public static void main(String[] args) {
-		String[] students = {"John Smith", "Alice Johnson", "Bob Brown", "Carol Davis", "David Wilson"};
+		String[] students = {"Rohit", "Virat", "Siraj", "Dhoni", "Jasprit"};
 		System.out.println(findLongestName(students));
 		System.out.println(countNamesStartingWith(students, 'B'));
 		System.out.println(Arrays.toString(formatNames(students)));
